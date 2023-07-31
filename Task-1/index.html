@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1b023d;
+      color: #89bcd7;
+      padding: 20px;
+      display: flex;
+      position: fixed;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    .logo {
+      font-size: 25px;
+      color: #8f3b8c;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .navbar a {
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      margin-right: 30px;
+      transition: .3s;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      color: white;
+    }
+
+    .home {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      padding: 0 30%;
+    }
+
+    .home-content {
+      max-width: 600px;
+    }
+
+    .home-content h1 {
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .home-content h3 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .home-content p {
+      font-size: 16px;
+      margin: 20px 0 40px;
+      line-height: 1.2;
+    }
+
+    .home-content .btn-box {
+      display: flex;
+      justify-content: space-between;
+      width: 345px;
+      height: 60px;
+    }
+
+    .btn-box a {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 100%;
+      background: rgb(4, 0, 34);
+      border: 2px solid #333;
+      border-radius: 10px;
+      font-size: 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-right: 10px;
+    }
+
+    .btn-box a:hover {
+      color: #333;
+    }
+
+    .home-content .icons {
+      width: 345px;
+      height: 50px;
+      line-height: 1.2;
+    }
+
+    .icons a {
+      text-decoration: none;
+      color: #190151;
+    }
+
+    .icons ion-icon {
+      color: #000;
+      font-size: 30px;
+      padding-left: 20px;
+      padding-top: 40px;
+      transition: 0.3s ease;
+    }
+
+    .icons ion-icon:hover {
+      color: grey;
+    }
+
+    footer {
+      background-color: rgb(15, 1, 38);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body background="task1.webp">
+  <header class="header">
+    <a href="#" class="logo">RP</a>
+    <nav class="navbar">
+      <a href="#" class="active"><b>HOME</b></a>
+      <a href="#about">ABOUT</a>
+      <a href="#about">SERVICES</a>
+      <a href="#projects">WEB DESIGNS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+  <section class="home">
+    <div class="home-content">
+      <h1>Hi,<br>My Name is Ragapriya</h1>
+      <h3>Web Developer</h3>
+      <span id="element"></span>
+      <p>Creative Front-End Developer.</p>
+      <div class="btn-box">
+        <a href="#">My Portfolio</a>
+        <a href="#">My Intro</a>
+        <a href="#">Hire Me</a>
+      </div>
+      <div class="icons">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 RP. All rights reserved.</p>
+  </footer>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  
+</body>
+</html>
